@@ -126,7 +126,7 @@ const Homepage = () => {
             </div>
             {/* search meals */}
             <hr/>
-            {(searchResult.length > 0) ? <h2 style={{color:'white'}}>Search Meals</h2> : null}
+            {(searchResult.length > 0) ? <h2 style={{color:'white'}}>Search Meals </h2> : null}
             <div className="mealItems">
                 { (searchResult.length > 0) ? searchResult.map((item) => <Meals id={item.idMeal} item={item} fav={addToFavouriteList} />) : null}
             </div>

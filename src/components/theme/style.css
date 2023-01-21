@@ -1,0 +1,12 @@
+.theme {
+    position: fixed;
+    top: 32px;
+    z-index: 101;
+    width: 100vw;
+}
+
+.theme-button {
+    background-color: black;
+    color: aliceblue;
+    float: right;
+}

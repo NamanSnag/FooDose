@@ -1,0 +1,31 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(0, 191, 255);
+    margin-bottom: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(4, 41, 75, 0.805);
+}
+
+.logo {
+    height: 50px;
+    animation: logoRotate infinite 10s linear;
+}
+
+#title {
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+@keyframes logoRotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
